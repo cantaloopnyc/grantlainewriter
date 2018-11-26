@@ -10,12 +10,9 @@
     position: fixed;
     background: #000 !important;
     width: 100%;
+    padding: 5px;
 }
 
-.navbar-nav > li{
-  padding-left:20px;
-  padding-right:10px;
-}
 
 h1, h2 {
     margin: 0;}
@@ -30,6 +27,8 @@ html, body {
 .screenw {
     text-align: center;
         color: black;
+          font-size:2vw;
+
 
 }
     
@@ -87,6 +86,10 @@ color: magenta;
 
 }
 
+.col-xs-15{
+    width:20%;
+}
+
 /* Side Bar */
 /*.sidebar {
 	height: 100%;
@@ -106,6 +109,7 @@ left: calc(100% * 3 / 5);
 	font-weight: 300;
 /*    opacity: 0;*/
     display: none;
+
     
 }
 .titleabout {
@@ -124,6 +128,8 @@ left: calc(100% * 3 / 5);
 	font-weight: 300;
     margin-top: 20%;
     color: white;
+          font-size:3vw;
+
 
 }
 
@@ -132,7 +138,10 @@ left: calc(100% * 3 / 5);
 	padding: 15% 5%;
 	font-weight: 300;
     margin-top: 75%;
-        color: white;
+        color: white;      
+        font-size:3vw;
+
+        
 
 
 }
@@ -143,6 +152,8 @@ left: calc(100% * 3 / 5);
 	font-weight: 300;
     margin-top: 60%;
         color: white;
+              font-size:3vw;
+
 
 
 }
@@ -153,6 +164,8 @@ left: calc(100% * 3 / 5);
 	font-weight: 300;
     margin-top: 25%;
         color: white;
+              font-size:2.5vw;
+
 
 
 }
@@ -162,6 +175,8 @@ left: calc(100% * 3 / 5);
 	font-weight: 350;
     margin-top: 80%;
     color: black;
+      font-size:3vw;
+
     
 }
 .panel3 {
@@ -261,7 +276,7 @@ background: rgba(0,0,0,0.6);
     color: white;
 }
 .panel-holder {
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 /* index title animation */
@@ -376,8 +391,18 @@ html, body {
 
 }
 
+
+ .navbar .nav {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+}
+
+
+
 .titlecontainer {
-    margin-top: 2%;
+    margin-top: -3%;
 }
 
 .itemName {
@@ -405,7 +430,8 @@ html, body {
     margin-left: 39%;
     color: #bb33ff!important;
 }
-.tab-content {
+.tab-pane {
+    margin-bottom: 50px;
 }
 
 .w-200 {
@@ -458,7 +484,7 @@ p {
 .btn-purple:active,
 .btn-purple:visited,
 .btn-purple:focus {
-    background-color: #bb33ff;
+    background-color: #bb33ff!important;
     border-color:#bb33ff;
 }
 .btn-peach,
@@ -481,6 +507,9 @@ p {
 
 .nav-item {
     font-size: 18px;
+    padding: 6px;
+    margin-top: 1px;
+    margin-left: 65px;
 }
 
     color: magenta!important;
